@@ -28,7 +28,7 @@ Oipoipo pi pi pi poi poppy pi popo po cpiopi po top imo op iopiopi op opipoi p
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'EugeneItechArt' => 'yevgeni.bessilko@itechart-group.com' }
-  s.source           = { :git => 'https://github.com/EugeneItechArt/PRIVATEPOD.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/EugeneItechArt/privatePodTesting.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.0'
