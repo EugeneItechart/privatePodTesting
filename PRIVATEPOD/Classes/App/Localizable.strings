@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  Tokenization
+
+  Created by Rossine de Souza Pinto on 2/11/19.
+  Copyright © 2019 Rockspoon Inc. All rights reserved.
+*/
+
+"addingCard" = "Adding card";
+"cardAlias" = "CARD ALIAS";
+"cardNumber" = "CARD NUMBER";
+"cvv" = "CVV";
+"Error" = "Error";
+"invalidCreditCardNumber" = "Invalid credit card number!";
+"invalidExpirationDate" = "Invalid expiration date!";
+"MasterCard" = "Mastercard";
+"Other card" = "Other card";
+"personal" = "Personal";
+"pleaseSelectACardAlias" = "Please select a card alias";
+"pleaseTypeTheCVVCode" = "Please type the CVV code";
+"UnknownError" = "Unknown error";
+"validThru" = "VALID THRU (MM/YY)";
+"Visa" = "Visa";
+
+// Edit credit card scene
+"add new card" = "Add a new credit card";
+"card alias" = "Card label";
+"card number" = "Credit card number";
+"cvc" = "CVC";
+"delete card" = "Delete this card";
+"good thru" = "Good thru";
+"save" = "Save";
+"scan card" = "Scan my card";
+"Month" = "Month";
+"invalid" = "invalid";
+"ok" = "ok";
+"Done" = "Done";
