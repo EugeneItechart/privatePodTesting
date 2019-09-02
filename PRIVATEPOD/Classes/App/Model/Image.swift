@@ -11,38 +11,38 @@ import UIKit
 enum Image {
 
   static var amex: UIImage {
-    return #imageLiteral(resourceName: "icAmex")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var camera: UIImage {
-    return #imageLiteral(resourceName: "icCameraWhite")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var diners: UIImage {
-    return #imageLiteral(resourceName: "icDiners")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var discover: UIImage {
-    return #imageLiteral(resourceName: "icDiscover")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var genericCreditCard: UIImage {
-    return  #imageLiteral(resourceName: "icGenericCreditCard")
+    return  UIImage.init(named: "ic_card_generic")!
   }
 
   static var jcb: UIImage {
-    return #imageLiteral(resourceName: "icJcb")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var masterCard: UIImage {
-    return #imageLiteral(resourceName: "icMaster")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var creditCardPlaceholder: UIImage {
-    return #imageLiteral(resourceName: "icPlaceholder")
+    return UIImage.init(named: "ic_card_generic")!
   }
 
   static var visa: UIImage {
-    return #imageLiteral(resourceName: "icVisa")
+    return UIImage.init(named: "ic_card_generic")!
   }
 }

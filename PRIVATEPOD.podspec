@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRIVATEPOD'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'WCOOK DEscpritpsdofgjsgj s kg;sdlfgj lksdfjg sjg dfs;lk jglk'
 
 # This description is used to generate tags and improve search results.
@@ -31,18 +31,18 @@ Oipoipo pi pi pi poi poppy pi popo po cpiopi po top imo op iopiopi op opipoi p
   s.source           = { :git => 'https://github.com/EugeneItechArt/PRIVATEPOD.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   #s.ios.deployment_target = '11.0'
-  #s.platform = :ios, '11.0'
+  s.platform = :ios, '11.0'
 
   s.source_files = 'PRIVATEPOD/Classes/**/*'
 
-  #s.resources = 'PRIVATEPOD/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
-  # s.resource_bundle = { 'Resources' => ['PRIVATEPOD/**/*.{strings}'] }
+  s.resources = 'PRIVATEPOD/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+   #s.resource_bundle = { 'Resources' => ['PRIVATEPOD/Classes/Resources'] }
   
-  # s.resource_bundles = {
-  #   'PRIVATEPOD' => ['PRIVATEPOD/Assets/*.png']
-  # }
+   #s.resource_bundles = {
+   #  'PRIVATEPOD' => ['PRIVATEPOD/Classes/Resources/Images']
+   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

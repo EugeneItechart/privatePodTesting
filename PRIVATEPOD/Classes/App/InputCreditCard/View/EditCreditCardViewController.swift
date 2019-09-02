@@ -17,20 +17,9 @@ final class EditCreditCardViewController: UIViewController {
   @IBOutlet private var scanButton: UIButton!
   @IBOutlet private var saveButton: UIButton!
 
-    private let doneBar: UIToolbar = {
-    $0.sizeToFit()
-    let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-    let done = UIBarButtonItem(title: Localize("Done"), style: .done, target: self, action: #selector(dismissInput))
-    $0.setItems([space, done], animated: false)
-    return $0
-  }(UIToolbar())
-
     override func viewDidLoad() {
-    super.viewDidLoad()
-  }
+        super.viewDidLoad()
 
-    @objc
-    func dismissInput() {
-        //
+         let cardIcon = Image.genericCreditCard
     }
 }
